@@ -44,8 +44,8 @@ const Form = ({ email, setEmail, visible, hideForm }) => {
             {!visible ?
                 <form action="submit" className='sign-up' onSubmit={handleSubmit}>
                     <div className='img-container'>
-                        <img src="./src/assets/images/illustration-sign-up-mobile.svg" alt="mobile illustration" className='mobile-illustration' />
-                        <img src="./src/assets/images/illustration-sign-up-desktop.svg" alt="desktop illustration" className='desktop-illustration' />
+                        <img src="./public/assets/images/illustration-sign-up-mobile.svg" alt="mobile illustration" className='mobile-illustration' />
+                        <img src="./public/assets/images/illustration-sign-up-desktop.svg" alt="desktop illustration" className='desktop-illustration' />
                     </div>
 
                     <div className='content-container'>
@@ -54,15 +54,15 @@ const Form = ({ email, setEmail, visible, hideForm }) => {
                             <p>Join 60,000+ product managers receiving monthly updates on:</p>
                             <ul className='list-container'>
                                 <li>
-                                    <img src='./src/assets/images/icon-list.svg' alt='list' />
+                                    <img src='./public/assets/images/icon-list.svg' alt='list' />
                                     <p>Product discovery and bulding what matters</p>
                                 </li>
                                 <li>
-                                    <img src='./src/assets/images/icon-list.svg' alt='list' />
+                                    <img src='./public/assets/images/icon-list.svg' alt='list' />
                                     <p>Measuring to ensure updates are a success</p>
                                 </li>
                                 <li>
-                                    <img src='./src/assets/images/icon-list.svg' alt='list' />
+                                    <img src='./public/assets/images/icon-list.svg' alt='list' />
                                     <p>And much more!</p>
                                 </li>
                             </ul>
